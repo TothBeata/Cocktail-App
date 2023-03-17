@@ -61,10 +61,10 @@ const Contact = () => {
         </div>
       ) : (
         <div className="contact-message">
-          <p>The message was sent !</p>
+          <p>The message was sent!</p>
           <Link to="/">
-            <button className="btn btn-primary">
-              Go back to cocktails list.
+            <button className="btn">
+              Go back to cocktails list
             </button>
           </Link>
         </div>

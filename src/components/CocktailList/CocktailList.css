@@ -1,37 +1,48 @@
 .details-btn {
-    position: relative;
-    animation-name: jump;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+  position: relative;
+  animation-name: jump;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  background-color: #9c2052;
+  color: white;
 }
-
 
 @keyframes jump {
-    0% {
-        transform: translateY(0);
-    }
+  0% {
+    transform: translateY(0);
+  }
 
-    50% {
-        transform: translateY(-5px);
-    }
+  50% {
+    transform: translateY(-5px);
+  }
 
-    100% {
-        transform: translateY(0);
-    }
+  100% {
+    transform: translateY(0);
+  }
 }
 
-
-
 .card-body-ind {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem;
 }
 
 .card-title {
-    text-align: center;
+  text-align: center;
+}
+
+.h4,
+h4 {
+  font-size: 1rem;
+}
+
+.h5,
+h5 {
+  font-size: 1.7rem;
+  color: #9c2052;
 }

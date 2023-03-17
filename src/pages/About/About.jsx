@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="about-container container mt-5">
       <h3 style={{ color: "#fff" }}>Cliff Cocktails List</h3>
-      <p className="h5 text-center font-italic" style={{ color: "#fff" }}>
+      <p className="h4 text-center font-italic" style={{ color: "#fff" }}>
         Welcome to our cocktail website! Here you will find everything you need
         to delight your taste buds and impress your guests at your next party or
         event. With a wide range of classic and innovative cocktail recipes, you
@@ -22,7 +22,7 @@ const About = () => {
       <img src={cocktails} alt="bg-cocktails" />
       <Link to="/">
         <button
-          className="btn btn-primary"
+          className="btn"
           style={{ marginTop: "15px", marginBottom: "15px" }}
         >
           Go back to find your favorite cocktail !
